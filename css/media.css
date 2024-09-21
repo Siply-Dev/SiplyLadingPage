@@ -1,0 +1,213 @@
+@media screen and (max-width: 1200px){
+    
+    .banner{
+        padding-bottom: 400px;
+    }
+
+    .funcionalidades{
+        margin-top: -200px;
+    }
+    
+    .funcionalidades::after{
+        left: -30%;
+        transform: rotate(10deg);
+    }
+
+
+    .funcionalidades .conteiner{
+        flex-direction: column;
+    }
+
+    .funcionalidades .conteiner .textFunctions{
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .funcionalidades .mockupNotebook{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .sobre-nos .conteiner .content{
+        width: 40%;
+    }
+
+    .contentEstatistica{
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 30px; 
+        grid-template-areas: 
+            "grid-1"
+            "grid-2"
+            "grid-3"; 
+    }
+    .grid-1 { 
+        grid-area: grid-1; 
+    }
+        
+    .grid-2 {
+        grid-area: grid-2; 
+    }
+    .grid-3 {
+        grid-area: grid-3; 
+    }
+
+    .sobre-nos .conteiner{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .sobre-nos .conteiner .content{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .sobre-nos .conteiner .ImgGrupo{
+        width: 80%;
+        text-align: right;
+        margin-top: -150px;
+    }
+
+
+    .banner .title_txt .ecplise.title{
+        left: 0;
+
+    }
+
+    .funcionalidades .ecplise.funcEcli{
+
+        top: -20px;
+
+    }
+
+    .estatisticas .ecplise.boxEcli{
+
+        right: -30px;
+        top: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 1022px){
+    .funcionalidades::after{
+        width: 100%;
+        transform: rotate(0);
+        left: 0;
+    }
+    .sobre-nos .conteiner .content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sobre-nos::before{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .banner .title_txt h1{
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .textFunctions h2, .estatisticas .title h2{
+        font-size: 24px;
+    }
+
+    .sobre-nos .content .titleSobre-nos h2{
+        font-size: 26px;
+    }
+
+    .contentEstatistica .box-estatistica{
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .contentEstatistica{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .estatisticas .box-estatistica:nth-child(1) p{
+        text-align: left;
+    }
+
+    .estatisticas .box-estatistica p{
+        text-align: left;
+    }
+
+    .funcionalidades .list_number:nth-of-type(1) {
+        padding-top: 50px;
+    }
+    
+    .funcionalidades .list_number:nth-of-type(2) {
+        padding: 50px 0;
+    }
+    
+    .funcionalidades .list_number:nth-of-type(3) {
+        padding-left: 0;
+    }
+
+    .contentEstatistica .box-estatistica{
+        padding: 20px;
+    }
+
+    .contentEstatistica .box-estatistica .flex{
+        flex-wrap: wrap;
+    }
+
+    .estatisticas .box-estatistica .numberContent{
+        font-size: 30px;
+    }
+    .estatisticas .box-estatistica .numberContent_small{
+        font-size: 20px;
+    }
+
+    .sobre-nos .conteiner .ImgGrupo{
+        margin-top: -50px;
+    }
+
+    .ecplise{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 424px){
+    .sobre-nos .content .timeline .itemTimeLine{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .sobre-nos .content .timeline .itemTimeLine .texto{
+        padding-top: 10px;
+    }
+
+    .sobre-nos .content .timeline .itemTimeLine .icon{
+        width: 80px;
+    }
+    .sobre-nos .content .timeline .itemTimeLine .icon img{
+        width: 100%;
+    }
+
+    .sobre-nos .content .timeline .timeLineBox::before,
+    .sobre-nos .content .timeline .itemTimeLine::before{
+        display: none;
+
+    }
+
+    .sobre-nos .content .timeline .itemTimeLine .texto
+    {
+        padding: 10px 0;
+    }
+
+    .footer .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

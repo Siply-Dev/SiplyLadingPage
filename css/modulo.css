@@ -1,0 +1,511 @@
+.btn {
+    padding: 8px 22px;
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+/*----------------------------------------------------------*/
+
+/*↓ inicio Sessão do Banner ↓*/
+.banner {
+    background-image: url("../assets/Bg/Hospital\ Fundo\ -\ Página\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 600px;
+}
+
+
+.banner::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ebecf0d5;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.banner .conteiner {
+    position: relative;
+    z-index: 2;
+}
+
+.banner header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .title_txt {
+    text-align: center;
+    padding: 80px 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.banner .title_txt h1 {
+    color: var(--primary-color-010);
+    font-size: 32px;
+    background-color: var(--white-color);
+    border-radius: 50px;
+    padding: 20px 100px;
+}
+
+.banner .title_txt p {
+    color: var(--primary-color-010);
+    font-size: 22px;
+    margin: 32px 0;
+}
+
+/*↓ Botão Banner ↓*/
+.banner .title_txt .btn_cta {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.banner .title_txt .icon_btn_cta {
+    font-size: 48px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    z-index: 1;
+}
+
+.banner .title_txt .txt_btn_cta {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px 20px 10px 30px;
+    margin-left: -25px;
+    font-weight: 600;
+
+}
+
+/*↑ Final Sessão do Banner  ↑*/
+
+/*----------------------------------------------------------*/
+
+/*↓ Inicio Sessão Funcionalidades ↓*/
+.funcionalidades {
+    background-color: transparent;
+
+    z-index: 1;
+    position: relative;
+    margin-top: -300px;
+}
+
+.funcionalidades::after {
+    content: "";
+    height: 150%;
+    width: 150%;
+    background: rgb(9,58,130);
+    background: linear-gradient(180deg, rgba(9,58,130,1) 0%, rgba(9,70,137,1) 100%);
+    display: block;
+    position: absolute;
+    z-index: -10;
+    top: 10%;
+    left: -15%;
+    transform: rotate(15deg);
+}
+
+
+.funcionalidades .conteiner {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.funcionalidades .conteiner .textFunctions {
+    width: 50%;
+}
+
+.textFunctions {
+    color: var(--white-color);
+}
+
+
+.textFunctions h2 {
+    position: relative;
+    font-size: 42px;
+}
+
+.textFunctions h2::before {
+    position: absolute;
+    content: "";
+    width: 245px;
+    height: 10px;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    bottom: -15px;
+    left: -60px;
+}
+
+.funcionalidades .list_number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.funcionalidades .list_number:nth-of-type(1) {
+    padding-top: 50px;
+}
+
+.funcionalidades .list_number:nth-of-type(2) {
+    padding: 50px 0 50px 80px;
+}
+
+.funcionalidades .list_number:nth-of-type(3) {
+    padding-left: 160px;
+}
+
+.funcionalidades .list_number p {
+    width: 80%;
+
+}
+
+.funcionalidades .list_number .number-destaque {
+    font-size: 26px;
+    color: var(--tertiary-color);
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 8px solid var(--tertiary-color);
+}
+
+.funcionalidades .icon_number {
+    margin: 0 32px;
+}
+
+
+.feature_number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--tertiary-color);
+    /* Ajuste a cor do círculo */
+
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.mockupNotebook {
+    width: 50%;
+}
+
+.mockupNotebook img {
+    width: 100%;
+}
+
+/*↑ Final Sessão Funcionalidades ↑*/
+
+/*----------------------------------------------------------*/
+
+/*↓ Inicio Sessão Estatisticas ↓*/
+.estatisticas {
+    color: var(--white-color);
+    background: rgb(9,60,131);
+    background: linear-gradient(180deg,  rgba(9,70,137,1) 0%, rgba(9,70,137,1) 100%);
+}
+
+.estatisticas .title{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.estatisticas .title h2{
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+
+.estatisticas .title p{
+    font-size: 18px;
+}
+
+.contentEstatistica{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 30px; 
+    grid-template-areas: 
+        "grid-1 grid-2"
+        "grid-1 grid-3"; 
+}
+.grid-1 { 
+    grid-area: grid-1; 
+}
+    
+.grid-2 {
+    grid-area: grid-2; 
+}
+.grid-3 {
+    grid-area: grid-3; 
+}
+
+.contentEstatistica .box-estatistica{
+    padding: 40px 80px;
+    border-radius: 20px;
+    background-color: #17508F;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 0 0 20px 10px #093C83;
+}
+
+.estatisticas .box-estatistica:nth-child(1) p{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.estatisticas .box-estatistica .font_text{
+    color: #72A2D7;
+    font-size: 16px !important;
+    padding-top: 10px;
+}
+
+.contentEstatistica .box-estatistica .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.estatisticas .box-estatistica .numberContent{
+    font-size: 72px;
+    font-weight: 800;
+    padding-right: 30px;
+}
+.estatisticas .box-estatistica .numberContent_small{
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0 5px;
+}
+
+/*----------------------------------------------------------*/
+
+/*↓ Inicio Sessão Sobre-nós ↓*/
+.sobre-nos {
+    color: var(--primary-color-010);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(195,195,195,1) 100%);
+
+    position: relative;
+}
+
+.sobre-nos::before{
+    content: url("../assets/Elementos/vector\ lateral\ sobre\ nos.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 50%;
+    z-index: -1;
+
+}
+
+.sobre-nos::after{
+    content: url("../assets/Bg/grid-siply-bg.png");
+    position: absolute;
+    width: fit-content;
+    height: auto;
+    z-index: -1;
+
+    bottom: 0;
+    right: 0;
+}
+
+.sobre-nos .conteiner{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.sobre-nos .conteiner .content{
+    width: 50%;
+    margin-left: 12%;
+}
+
+.sobre-nos .content .titleSobre-nos{
+    padding: 40px 0;
+}
+
+.sobre-nos .content .titleSobre-nos p{
+    padding-top: 32px;
+}
+
+.sobre-nos .conteiner .ImgGrupo{
+    width: 40%;
+}
+.sobre-nos .conteiner .ImgGrupo img{
+    width: 100%;
+}
+
+.sobre-nos .content .timeline{
+    padding-left: 30px;
+}
+
+.sobre-nos .content .timeline .timeLineBox{
+    position: relative;
+}
+
+.sobre-nos .content .timeline .timeLineBox::before{
+    content: "";
+    position: absolute;
+    height: calc(100% - 203px);
+    width: 5px;
+    background-color: var(--secondary-color);
+    top: 103px;
+    left: 5px;
+}
+
+.sobre-nos .content .timeline h4{
+    position: relative;
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos .content .timeline h4::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: var(--secondary-color);
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    
+}
+
+.sobre-nos .content .timeline .itemTimeLine{
+    padding: 50px 0 50px 40px;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.sobre-nos .content .timeline .itemTimeLine::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 15px;
+    height: 4px;
+    background-color: var(--secondary-color);
+}
+
+.sobre-nos .content .timeline .itemTimeLine .texto{
+    padding-left: 16px;
+}
+
+.sobre-nos .content .timeline .itemTimeLine .texto p{
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/*↑ Final Sessão Sobre-nós ↑*/
+
+.footer {
+    background-color: var(--primary-color-010);
+    color: var(--white-color);
+    padding: 20px 0;
+}
+
+.footer .flex {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logoFooter .logo-small {
+    max-height: 30px;
+    width: auto;
+
+}
+
+.socialMida .flex{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.socialMida p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.socialMida a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+
+.socialMida i {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Eclips */
+
+.banner .ecplise.bannerE{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.banner .title_txt .ecplise.title{
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    z-index: -1;
+}
+.funcionalidades .ecplise.funcEcli{
+    position: absolute;
+    top: -40%;
+    left: 50px;
+    z-index: -1000;
+    transform: rotate(-10deg);
+}
+
+.estatisticas .ecplise.estaEcli{
+    position: absolute;
+    top: 0;
+    left: -65px;
+    z-index: 1;
+    transform: rotate(34deg);
+}
+.estatisticas .ecplise.estaEcli2{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    z-index: -1;
+    width: 180px;
+}
+.estatisticas .ecplise.boxEcli{
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    z-index: -1;
+    width: 180px;
+}

@@ -1,0 +1,17 @@
+<svg width="363" height="323" viewBox="0 0 363 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_693_2" fill="white">
+<path d="M2.44784e-05 280C3.79974e-05 125.36 125.36 2.30377e-05 280 3.65568e-05C434.64 5.00758e-05 560 125.36 560 280C560 434.64 434.64 560 280 560C125.36 560 1.09593e-05 434.64 2.44784e-05 280ZM421.525 280C421.525 201.838 358.162 138.475 280 138.475C201.838 138.475 138.475 201.838 138.475 280C138.475 358.162 201.838 421.525 280 421.525C358.162 421.525 421.525 358.162 421.525 280Z"/>
+</mask>
+<path d="M2.44784e-05 280C3.79974e-05 125.36 125.36 2.30377e-05 280 3.65568e-05C434.64 5.00758e-05 560 125.36 560 280C560 434.64 434.64 560 280 560C125.36 560 1.09593e-05 434.64 2.44784e-05 280ZM421.525 280C421.525 201.838 358.162 138.475 280 138.475C201.838 138.475 138.475 201.838 138.475 280C138.475 358.162 201.838 421.525 280 421.525C358.162 421.525 421.525 358.162 421.525 280Z" stroke="url(#paint0_linear_693_2)" stroke-width="100" mask="url(#path-1-inside-1_693_2)"/>
+<circle cx="280" cy="280" r="160" fill="url(#paint1_linear_693_2)"/>
+<defs>
+<linearGradient id="paint0_linear_693_2" x1="3.52613e-05" y1="320.5" x2="615" y2="320.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1E5EF"/>
+<stop offset="1" stop-color="#D3DBE9"/>
+</linearGradient>
+<linearGradient id="paint1_linear_693_2" x1="-2.99994" y1="319" x2="361" y2="319" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1E5EF"/>
+<stop offset="1" stop-color="#D3DBE9"/>
+</linearGradient>
+</defs>
+</svg>
